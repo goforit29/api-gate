@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: apigate
-          image: username/apigate:latest
+          image: test29cr.azurecr.io/apigate:latest
           ports:
             - containerPort: 8080
